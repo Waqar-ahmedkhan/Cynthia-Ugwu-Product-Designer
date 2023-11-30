@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "General Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+#minicircle {
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: #fff;
+    z-index: 999;
+    border-radius: 50%;
+}
+
+.bounding {
+    width: fit-content;
+    overflow: hidden;
+
+}
+.bounding .boundingelement {
+    transform:  translateY(100%);
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#wrapper {
+    width: 100%;
+    background-color: black;
+}
+
+#header {
+    position: relative;
+     width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: #fff;
+}
+
+#navigation {
+    width: 100%;
+    color: #fff;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navigation a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#main-heading {
+    margin-top: 70px;
+}
+
+#main-heading h1 {
+    margin-left: 40px;
+    font-size: 10.5vw;
+    opacity: 0.6;
+    text-transform: uppercase;
+    line-height: 0.9;
+    font-weight: 600;
+}
+
+#main-heading #designer-heading {
+    margin-left: 180px;
+}
+
+
+
+.block-text {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: fit-content;
+}
+
+.block-text h5 {
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: right !important;
+}
+
+.small-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    margin-top: 50px;
+    padding-right: 50px;
+}
+
+.small-heading h5 {
+    margin-top: 0.7vw;
+    text-align: right;
+    font-size: 1.2vw;
+    text-transform: uppercase;
+}
+
+#hero-footer {
+    width: 100%;
+    padding: 0 2vw;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    bottom: 5%;
+}
+
+#hero-footer a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.icon-sets {
+    display: flex;
+    gap: 5px;
+}
+
+#hero-footer .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22px;
+    height: 22px;
+    background-color: #888;
+    border-radius: 50%;
+}
+#second-section {
+    color: #fff;
+    padding-top: 90px;
+    padding-right: 9vw;
+    padding-left: 1.7vw;
+    background-color: black;
+    width: 100%;
+    height: 115vh;
+}
+ .element {
+    position: relative;
+    display: flex;
+    border-top: 1.4px solid #888;
+    justify-content: space-between;
+    padding: 2.8vw 1.9vw;
+    padding-right: 0;
+    align-items: center;
+
+ }
+ .element  h1 {
+     text-transform: uppercase;
+     font-size: 7vw;
+     opacity: .7;
+
+ }
+
+ .last-element {
+    border-bottom: 1.2px solid #888;
+ }
+
+ .element img {
+    pointer-events: none;
+    opacity: 0;
+    position: absolute;
+    height: 140%;
+    z-index: 999;
+    transform: translate(-50%, -50%);
+
+ }
+
+ .about-us {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    padding: 10vw 9.5vw;
+    padding-left: 27vw;
+
+ }
+
+ .about-us img{
+    width: 15rem;
+    margin-bottom: 6vw;
+
+ }
+
+ .textbox {
+    margin-left: 4rem;
+     font-size: 18px;
+ }
+ .textbox h5{
+    font-size: 15px;
+    opacity: 0.6;
+    margin-bottom: 3px;
+
+ }
+
+ .textbox p {
+    line-height: 1.7;
+    margin-bottom: 30px;
+ }
+
+ .subscribe{
+    width: 100%;
+    height: 25vh;
+    background-color: black;
+    color: #fff;
+    padding-left: 25px;
+
+ }
+
+ .subscribe h4 {
+    opacity: 0.9;
+ }
+ .footer  {
+    color: #fff;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    }
+
+    .footer-left  {
+        display: flex;
+         gap: 30px;
+
+    }
+
+    #footerright  {
+      display: flex;
+      gap: 35px;
+    }
+    #footerright a  {
+        font-weight: 500;
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+
